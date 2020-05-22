@@ -1,4 +1,10 @@
 Deadline : 16th June 
 
 
+1) 21th		Literautre Survey, Simulink model, Introduction
+2) 28th		Modelling on IPG for KPI tests
+3) 4th 		Get results and visualize	
+4) 11th		Finalize project. (If get LQR, do nonlinear MPC.)
+
+16th	Presentation
 
