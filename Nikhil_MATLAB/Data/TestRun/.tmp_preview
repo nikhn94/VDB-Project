@@ -1,0 +1,32 @@
+#INFOFILE1.1 - Do not remove this line!
+TestRun.Name = Test2
+Vehicle = Examples/Demo_Audi_TT
+Trailer =
+Trailer2 =
+Tire.0 =
+Tire.1 =
+Tire.2 =
+Tire.3 =
+Road.VhclStartPos = 0 0 0
+Road.Lane = center
+Road.DigSmooth = 0.2 0 0
+Road.DigOptions =
+Road.Country = DEU
+Road.RouteId = 0
+Road.GCS.RefPos_0 = 0 0 0
+Road.GCS.Projection = FlatEarth
+Road.2Movie.MStrip = 0.12 3 6
+Road.2Movie.SStrip = 0.12 0 0 0.1
+Road.2Movie.GStrip = 1.50 100
+Road.2Movie.MaxErrXY = 0.02
+Road.2Movie.GeoStepSize = 0.20
+Road.2Movie.GenBridges = 0
+Road.2Movie.BgGeoFName =
+Road.2Movie.BgGeoOptions =
+Road.2Movie.TerrainFName =
+Road.Definition:
+	FileIdent IPGRoad 4.5
+	Origin    0 0 0 0
+	Default 3.00 3.00 0.50 0.50 1.0 1.0 - - - - - -
+	Straight  500 3 3 0.5 0.5  0 0 0  1 1  - - -  - - -
+	Straight  500 3 3 0.5 0.5  0 0 0  0.5 0.5  - - -  - - -
