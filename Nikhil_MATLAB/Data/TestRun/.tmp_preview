@@ -28,5 +28,5 @@ Road.Definition:
 	FileIdent IPGRoad 4.5
 	Origin    0 0 0 0
 	Default 3.00 3.00 0.50 0.50 1.0 1.0 - - - - - -
-	Straight  200 3 3 0.5 0.5  0 0 0  1 1  - - -  - - -
-	Straight  200 3 3 0.5 0.5  0 0 0  0.5 0.5  - - -  - - -
+	Straight  300 3 3 0.5 0.5  0 0 0  1 1  - - -  - - -
+	Straight  100 3 3 0.5 0.5  0 0 0  0.5 0.5  - - -  - - -

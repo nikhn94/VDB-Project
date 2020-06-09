@@ -10,8 +10,8 @@ Tire.2 =
 Tire.3 =
 Snapshot.TimeLimit =
 Snapshot.DistLimit =
-VehicleLoad.0.mass = 0
-VehicleLoad.0.pos = 0 0 0
+VehicleLoad.0.mass = 80
+VehicleLoad.0.pos = 2 0.3 0.8
 VehicleLoad.1.mass = 0
 VehicleLoad.1.pos = 0 0 0
 VehicleLoad.2.mass = 0
@@ -33,15 +33,11 @@ DrivMan.Init.OperatorState = drive
 DrivMan.VhclOperator.Kind = IPGOperator 1
 DrivMan.nDMan = 2
 DrivMan.0.Label = Accelerate
-DrivMan.0.DistLimit = 99
-DrivMan.0.LongDyn = VelControl 120 0.0 1.0 0.0 0.0 0.0
+DrivMan.0.DistLimit = 299
+DrivMan.0.LongDyn = VelControl 120 0.0 1.0 0.0 1 0.0
 DrivMan.0.LatDyn = Driver 0
 DrivMan.1.Label = Brake
 DrivMan.1.EndCondition = Car.v <=0.1
-DrivMan.1.Clutch = 0 0 0.2 abs
-DrivMan.1.Gas = 0 0 0.2 abs
-DrivMan.1.Brake = 1 0 0.2 abs
-DrivMan.1.BrakePark = 0 0 0.2 abs
 DrivMan.1.LongDyn = Manual
 DrivMan.1.LatDyn = Driver 0
 Traffic.IFF.FName =
@@ -108,7 +104,7 @@ Road.Definition:
 	Origin    0 0 0 0
 	Default 3.00 3.00 0.50 0.50 1.0 1.0 - - - - - -
 	Straight  300 3 3 0.5 0.5  0 0 0  1 1  - - -  - - -
-	Straight  300 3 3 0.5 0.5  0 0 0  0.5 0.5  - - -  - - -
+	Straight  100 3 3 0.5 0.5  0 0 0  0.5 0.5  - - -  - - -
 Env.StartTime.Year = 2019
 Env.StartTime.Month = 1
 Env.StartTime.Day = 1
@@ -169,13 +165,13 @@ Driver.Traffic.Overtake_Rate = 1
 Driver.Traffic.Overtake_dSpeedMin = 10
 Driver.Long.dtAccBrake = 0.5
 Driver.Long.axMax = 3.0
-Driver.Long.axMin = -4.0
+Driver.Long.axMin = -20.0
 Driver.Long.ayMax = 4.0
 Driver.Long.GGExp:
 	50 1.0 1.0
 Driver.Long.DevMax = 0.0
 Driver.Long.tReact = 0.0
-Driver.Long.TractionControl = 1
+Driver.Long.TractionControl = 0
 Driver.DecShift.UseBrakePark = 0
 Driver.DecShift.tSwitchGear = 1.0
 Driver.DecShift.nEngine.Limits:
