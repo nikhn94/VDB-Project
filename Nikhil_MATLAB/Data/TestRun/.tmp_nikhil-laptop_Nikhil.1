@@ -25,6 +25,7 @@ TrailerLoad.1.pos = 0 0 0
 TrailerLoad.2.mass = 0
 TrailerLoad.2.pos = 0 0 0
 DrivMan.Init.Velocity = 0
+DrivMan.Init.GearNo = 0
 DrivMan.Init.SteerAng = 0
 DrivMan.Init.LaneOffset = 0
 DrivMan.Init.OperatorActive = 1
@@ -33,7 +34,7 @@ DrivMan.VhclOperator.Kind = IPGOperator 1
 DrivMan.nDMan = 2
 DrivMan.0.Label = Accelerate
 DrivMan.0.DistLimit = 99
-DrivMan.0.LongDyn = VelControl 120 0.0 1.0 0 0 0
+DrivMan.0.LongDyn = VelControl 120 0.0 1.0 0.0 0.0 0.0
 DrivMan.0.LatDyn = Driver 0
 DrivMan.1.Label = Brake
 DrivMan.1.EndCondition = Car.v <=0.1
@@ -106,8 +107,8 @@ Road.Definition:
 	FileIdent IPGRoad 4.5
 	Origin    0 0 0 0
 	Default 3.00 3.00 0.50 0.50 1.0 1.0 - - - - - -
-	Straight  100 3 3 0.5 0.5  0 0 0  1 1  - - -  - - -
-	Straight  200 3 3 0.5 0.5  0 0 0  0.5 0.5  - - -  - - -
+	Straight  300 3 3 0.5 0.5  0 0 0  1 1  - - -  - - -
+	Straight  300 3 3 0.5 0.5  0 0 0  0.5 0.5  - - -  - - -
 Env.StartTime.Year = 2019
 Env.StartTime.Month = 1
 Env.StartTime.Day = 1
