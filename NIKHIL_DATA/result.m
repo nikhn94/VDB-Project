@@ -10,7 +10,9 @@ files = {'WO_Controller_1mu_Straight.CSV', ...
     'WO_Controller_mu_split.CSV', ...
     'W_Controller_1mu_Straight.CSV', ...
     'W_Controller_Straight.CSV', ...
-    'W_Controller_mu_split.CSV'};
+    'W_Controller_mu_split.CSV', ...
+    'PID_1mu.CSV', ...
+    'PID_mu_split.CSV'};
 
 for i = 1:size(files,2)
     data{i} = importdata(files{i});
@@ -65,7 +67,7 @@ for i = 1:size(files,2)
     vel = data{i}.data(:,5);
     t  = data{i}.data(:,6);
 
-    subplot(2,3,i);
+    subplot(2,4,i);
     yyaxis left;
     plot(t, FL);
     hold on;
@@ -78,7 +80,7 @@ for i = 1:size(files,2)
     hold off;
     grid on;
     set(gca, 'YColor', 'k');
-    axis([10 16 -5 40]);
+    axis([10 18 -5 40]);
 
     yyaxis right;
     plot(t, vel);
@@ -91,8 +93,8 @@ for i = 1:size(files,2)
     name = split(name(1), '_');
     new_name = join(name, '\_');
     title(sprintf('%s', new_name{1}));
-    axis([10 16 -5 40]);
+    axis([10 18 -5 40]);
     ax = gca;
-    ax.XTick = 10:2:16;
+    ax.XTick = 10:2:18;
     
 end
