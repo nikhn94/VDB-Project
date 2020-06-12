@@ -24,4 +24,31 @@ par.friction = 0.6;      % Friction coefficient [-]
 
 Kref = 0.1;
 %%
-% simout = sim('HW2_simulink');
+load('sim.mat');
+%Simout = sim('LQR_test.slx', 'StartTime','0','StopTime','10');
+%%
+figure(1);
+plot(Simout.wheel_torque.Time, Simout.wheel_torque.Data);
+grid on;
+xlabel('Time [s]');
+ylabel('Torque [Nm]');
+set(gca,'LineWidth',2,'FontSize',15, 'YColor', 'k','XMinorTick','on');
+set(findall(gca, 'Type', 'Line'),'LineWidth',2);
+title('Wheel torque');
+
+%%
+% wheel speeg & chasis speed
+figure(2);
+plot(Simout.whspd.Time, Simout.whspd.Data);
+hold on;
+plot(Simout.whspd.Time, Simout.vel.Data);
+hold off;
+xlabel('time [s]');
+ylabel('Velocity [m/s]');
+legend('Wheel speed','Chassis velocity');
+set(gca,'LineWidth',2,'FontSize',15, 'YColor', 'k','XMinorTick','on');
+set(findall(gca, 'Type', 'Line'),'LineWidth',2);
+grid on;
+title('Wheel and Chassis velocity');
+
+
