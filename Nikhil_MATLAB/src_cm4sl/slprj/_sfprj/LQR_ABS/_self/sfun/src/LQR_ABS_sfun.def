@@ -1,0 +1,4 @@
+LIBRARY LQR_ABS_sfun.mexw64
+EXPORTS
+mexFunction
+mexfilerequiredapiversion

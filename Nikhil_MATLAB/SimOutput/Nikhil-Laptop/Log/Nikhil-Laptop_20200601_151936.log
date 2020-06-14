@@ -1,0 +1,18 @@
+APPLICATION	CarMaker - SoftABS #6010 (win64-8.0.1)
+COMPILED	fh@obelix.ipg 2019-06-28 12:13:01
+SIM_START	Examples/VehicleDynamics/Braking/BrakingMuSplit	2020-06-01 16:18:21
+TIME	0.000
+SIMULATE	Examples/VehicleDynamics/Braking/BrakingMuSplit
+
+TIME	38.956
+		Braking distance: 65.71 m
+SIM_END		Examples/VehicleDynamics/Braking/BrakingMuSplit	38.958s	712.33m
+APPLICATION	CarMaker - SoftABS #6010 (win64-8.0.1)
+COMPILED	fh@obelix.ipg 2019-06-28 12:13:01
+SIM_START	Examples/VehicleDynamics/Braking/BrakingMuSplit	2020-06-01 16:20:00
+TIME	0.000
+SIMULATE	Examples/VehicleDynamics/Braking/BrakingMuSplit
+
+TIME	38.956
+		Braking distance: 65.71 m
+SIM_END		Examples/VehicleDynamics/Braking/BrakingMuSplit	38.958s	712.33m

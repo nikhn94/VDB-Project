@@ -1,0 +1,144 @@
+#INFOFILE1.1 - Do not remove this line!
+TestRun.Name = Test2
+Vehicle = Demo_Audi_TT_DCT_ABS_TEST
+Trailer =
+Trailer2 =
+Tire.0 =
+Tire.1 =
+Tire.2 =
+Tire.3 =
+Road.FileIdent = IPGRoad 8.0
+Road.LibVersion = 8.0.1
+Road.Country = DEU
+Road.nLinks = 2
+Road.nJunctions = 0
+Road.nObjects = 97
+Road.nRoutes = 2
+Road.RoadNetworkLength = 500
+Road.BBox = -10 510 -13.5 13.5 -11 11
+Road.Route.0.Length = 500
+Road.Route.1.Length = 500
+Road.RST.Unit = kmh
+Road.RST = 50 100 130 30 70 30 0 -1
+Road.Movie = 0.2 1 0.02 1.5 1.5 1 1
+Road.PathMode = -1
+Road.Link.0.ID = 0
+Road.Link.0.Junctions = -1 -1 -2 -1
+Road.Link.0.Node0 = 0 0 0 0
+Road.Link.0.RST = undefined
+Road.Link.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+Road.Link.0.RL.ID = 1
+Road.Link.0.Seg.0.ID = 10
+Road.Link.0.Seg.0.Type = Straight
+Road.Link.0.Seg.0.Param = 300 0 0 0 0 0 0 0
+Road.Link.0.Seg.1.ID = 31
+Road.Link.0.Seg.1.Type = Straight
+Road.Link.0.Seg.1.Param = 0.0149999999999864 0 0 0 0 0 0 0
+Road.Link.0.LaneSection.0.ID = 5
+Road.Link.0.LaneSection.0.Start = 0
+Road.Link.0.LaneSection.0.LaneL.0.ID = 6
+Road.Link.0.LaneSection.0.LaneL.0 = 0 3 3 0 0 0 0
+Road.Link.0.LaneSection.0.LaneL.0.ARP = 19 20 21 22 23 24
+Road.Link.0.LaneSection.0.LaneL.1.ID = 8
+Road.Link.0.LaneSection.0.LaneL.1 = 2 0.5 0.5 5 0 0 0
+Road.Link.0.LaneSection.0.LaneR.0.ID = 7
+Road.Link.0.LaneSection.0.LaneR.0 = 0 3 3 0 0 0 0
+Road.Link.0.LaneSection.0.LaneR.0.ARP = 25 26 27 28 29 30
+Road.Link.0.LaneSection.0.LaneR.1.ID = 9
+Road.Link.0.LaneSection.0.LaneR.1 = 2 0.5 0.5 5 0 0 0
+Road.Link.0.ElevationProfile.ID = 2
+Road.Link.0.ElevationProfile.Params = 0 0
+Road.Link.0.ElevationProfile:
+	86 -1 0 1 0 0 0
+Road.Link.0.SlopeProfile.ID = 3
+Road.Link.0.SlopeProfile.Params = 0 0
+Road.Link.0.SlopeProfile:
+	88 -1 0 1 0 0 0
+Road.Link.0.CamberProfile.ID = 4
+Road.Link.0.CamberProfile.Params = 0 0
+Road.Link.0.CamberProfile:
+	90 -1 0 1 0 0 0
+Road.Link.1.ID = 53
+Road.Link.1.Junctions = -1 -1 -2 -1
+Road.Link.1.Node0 = 300 0 0 0
+Road.Link.1.RST = undefined
+Road.Link.1.RL.ID = 54
+Road.Link.1.Seg.0.ID = 58
+Road.Link.1.Seg.0.Type = Straight
+Road.Link.1.Seg.0.Param = 199.985 0 0 0 0 0 0 0
+Road.Link.1.LaneSection.0.ID = 59
+Road.Link.1.LaneSection.0.Start = 0
+Road.Link.1.LaneSection.0.LaneL.0.ID = 60
+Road.Link.1.LaneSection.0.LaneL.0 = 0 3 3 0 0 0 0
+Road.Link.1.LaneSection.0.LaneL.0.Material.0 = Textures/Ground/Cobblestone.png 0 0 0 0 1 1 1 1 0 0 0
+Road.Link.1.LaneSection.0.LaneL.0.ARP = 63 64 65 66 67 68
+Road.Link.1.LaneSection.0.LaneL.1.ID = 70
+Road.Link.1.LaneSection.0.LaneL.1 = 2 0.5 0.5 5 0 0 0
+Road.Link.1.LaneSection.0.LaneR.0.ID = 73
+Road.Link.1.LaneSection.0.LaneR.0 = 0 3 3 0 0 0 0
+Road.Link.1.LaneSection.0.LaneR.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+Road.Link.1.LaneSection.0.LaneR.0.ARP = 76 77 78 79 80 81
+Road.Link.1.LaneSection.0.LaneR.1.ID = 83
+Road.Link.1.LaneSection.0.LaneR.1 = 2 0.5 0.5 5 0 0 0
+Road.Link.1.ElevationProfile.ID = 55
+Road.Link.1.ElevationProfile.Params = 0 0
+Road.Link.1.ElevationProfile:
+	87 -1 0 0 0 0 0
+Road.Link.1.SlopeProfile.ID = 56
+Road.Link.1.SlopeProfile.Params = 0 0
+Road.Link.1.SlopeProfile:
+	89 -1 0 0 0 0 0
+Road.Link.1.CamberProfile.ID = 57
+Road.Link.1.CamberProfile.Params = 0 0
+Road.Link.1.CamberProfile:
+	91 -1 0 0 0 0 0
+Road.LanePath.0 = 39 6 2 10 0.1 0.1
+Road.LanePath.1 = 40 7 2 10 0.1 0.1
+Road.LanePath.2 = 69 60 2 10 0.1 0.1
+Road.LanePath.3 = 82 73 2 10 0.1 0.1
+Road.UserPath.0 = 42 0 1 -2 -2 1
+Road.UserPath.0.Nodes:
+	43 0 0 2 0 0
+	44 0 0 3 0 0
+Road.UserPath.1 = 48 0 1 -2 -2 -1
+Road.UserPath.1.Nodes:
+	50 0 0 2 0 0
+	49 0 0 3 0 0
+Route.0.ID = 37
+Route.0.Name = Route
+Route.0.DrvPath.ID = 41
+Route.0.DrvPath:
+	42
+Route.1.ID = 38
+Route.1.Name = ReverseRoute
+Route.1.DrvPath.ID = 47
+Route.1.DrvPath:
+	48
+Road.RL.1.Bump.0.ID = 32 1
+Road.RL.1.Bump.0.Type = Friction
+Road.RL.1.Bump.0.Param = 300 0 0 1 -3 100 0 1 0 3
+Road.RL.1.Bump.1.ID = 33 1
+Road.RL.1.Bump.1.Type = Friction
+Road.RL.1.Bump.1.Param = 300 0 0 1 0 100 0 0.5 0 3
+Road.RL.1.RoadMarking.0.ID = 34 1
+Road.RL.1.RoadMarking.0 = 0 0 0 1 0 0 0.12 0 2 0 0 3 6 1 1 4 ""
+Road.RL.1.RoadMarking.1.ID = 35 1
+Road.RL.1.RoadMarking.1 = 0 0 0 1 0.1 -1 0.12 0 1 0 0 0 0 1 1 4 ""
+Road.RL.1.RoadMarking.2.ID = 36 1
+Road.RL.1.RoadMarking.2 = 0 0 0 1 -0.1 1 0.12 0 1 0 0 0 0 1 1 4 ""
+Road.RL.54.Bump.0.ID = 95 54
+Road.RL.54.Bump.0.Type = Friction
+Road.RL.54.Bump.0.Param = -0.0149999999999864 0 199.985 0 -3 100 0 1 0 3
+Road.RL.54.Bump.1.ID = 96 54
+Road.RL.54.Bump.1.Type = Friction
+Road.RL.54.Bump.1.Param = -0.0149999999999864 0 199.985 0 0 100 0 0.5 0 3
+Road.RL.54.RoadMarking.0.ID = 92 54
+Road.RL.54.RoadMarking.0 = -300.015 0 0 1 0 0 0.12 0 2 0 0 3 6 1 1 4 ""
+Road.RL.54.RoadMarking.1.ID = 93 54
+Road.RL.54.RoadMarking.1 = -300.015 0 0 1 0.1 -1 0.12 0 1 0 0 0 0 1 1 4 ""
+Road.RL.54.RoadMarking.2.ID = 94 54
+Road.RL.54.RoadMarking.2 = -300.015 0 0 1 -0.1 1 0.12 0 1 0 0 0 0 1 1 4 ""
+Road.MaxUsedObjId = 96
+Road.VhclStartPos = 0 0 0
+Road.VhclRoute = Route
+Road.RouteId = 0
