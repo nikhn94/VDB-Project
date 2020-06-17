@@ -39,7 +39,7 @@ for i = 1:size(files,2)
     hold off;
     grid on;
     set(gca, 'YColor', 'k');
-    axis([10 16 -5 40]);
+    axis([10 18 -5 40]);
 
     yyaxis right;
     plot(t, vel);
@@ -52,9 +52,9 @@ for i = 1:size(files,2)
     name = split(name(1), '_');
     new_name = join(name, '\_');
     title(sprintf('%s', new_name{1}));
-    axis([10 16 -5 40]);
+    axis([10 18 -5 40]);
     ax = gca;
-    ax.XTick = 10:2:16;
+    ax.XTick = 10:2:18;
 end
 
 %% subplot
