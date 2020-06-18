@@ -50,7 +50,7 @@ hold off;
 grid on;
 axis([10 18 -5 40]);
 set(gca,'LineWidth',2,'FontSize',15, 'YColor', 'k','XMinorTick','on');
-set(findall(gca, 'Type', 'Line'),'LineWidth',2);
+set(findall(gca, 'Type', 'Line'),'LineWidth',1.5);
 title({'LQR, PID Controller Wheel Speed ';'comparison on high friction road'});
 axis([10 18 -5 40]);
 ax = gca;
