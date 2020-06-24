@@ -21,7 +21,7 @@ files = {'WO_Controller_1mu_Straight.CSV', ...
 for i = 1:size(files,2)
     data{i} = importdata(files{i});
 end
-%% plot
+%% plot wheel and vehicle speed
 for i = 1:size(files,2)
     FL = data{i}.data(:,1)*0.32;
     FR = data{i}.data(:,2)*0.32;
