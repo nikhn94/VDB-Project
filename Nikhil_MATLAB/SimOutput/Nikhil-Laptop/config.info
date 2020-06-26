@@ -1,6 +1,6 @@
 #INFOFILE1.1 - Do not remove this line!
-TestRig.StartTime1970Str = 2020-06-17 22:35:29
-TestRig.StartTime1970 = 1592426129
+TestRig.StartTime1970Str = 2020-06-26 20:39:50
+TestRig.StartTime1970 = 1593196790
 CarMaker.Library = win64 8.0.1 #1198
 CarMaker.Compiled = fh@obelix.ipg 2019-06-28 12:12:42
 CarMaker.CompileFlags:
@@ -265,7 +265,7 @@ SuspKnC_Com.Models:
 Vehicle.Models:
 	MyCar               	v1 (compat. v1)
 Generic.Models:
-Application.Version = CarMaker - SoftABS
+Application.Version = CarMaker 8.0.1 - Car_Generic
 Application.BuildVersion = 6010
 Application.CompileTime = 2019-06-28 12:13:01
 Application.CompileUser = fh

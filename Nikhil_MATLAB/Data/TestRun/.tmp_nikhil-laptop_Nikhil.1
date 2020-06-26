@@ -2,7 +2,7 @@
 FileIdent = CarMaker-TestRun 8
 FileCreator = CarMaker for Simulink 8.0.1 2019-6-26
 Description:
-Vehicle = .tmp_nikhil-laptop_Nikhil.1
+Vehicle = Demo_Audi_TT_DCT_ABS_TEST
 Trailer =
 Tire.0 =
 Tire.1 =
@@ -11,7 +11,7 @@ Tire.3 =
 Snapshot.TimeLimit =
 Snapshot.DistLimit =
 VehicleLoad.0.mass = 80
-VehicleLoad.0.pos = 2 0.4 0.7
+VehicleLoad.0.pos = 2 0.3 0.8
 VehicleLoad.1.mass = 0
 VehicleLoad.1.pos = 0 0 0
 VehicleLoad.2.mass = 0
@@ -25,6 +25,7 @@ TrailerLoad.1.pos = 0 0 0
 TrailerLoad.2.mass = 0
 TrailerLoad.2.pos = 0 0 0
 DrivMan.Init.Velocity = 0
+DrivMan.Init.GearNo = 0
 DrivMan.Init.SteerAng = 0
 DrivMan.Init.LaneOffset = 0
 DrivMan.Init.OperatorActive = 1
@@ -33,14 +34,15 @@ DrivMan.VhclOperator.Kind = IPGOperator 1
 DrivMan.nDMan = 2
 DrivMan.0.Label = Accelerate
 DrivMan.0.DistLimit = 299
-DrivMan.0.LongDyn = VelControl 120 0.0 1.0 0 1 0
+DrivMan.0.LongDyn = VelControl 120 0.0 1.0 0.0 1 0.0
 DrivMan.0.LatDyn = Driver 0
 DrivMan.1.Label = Brake
-DrivMan.1.EndCondition = Car.v<=0.1
+DrivMan.1.EndCondition = Car.v <=0.1
 DrivMan.1.Clutch = 0 0 0.2 abs
 DrivMan.1.Gas = 0 0 0.2 abs
 DrivMan.1.Brake = 1 0 0.2 abs
 DrivMan.1.BrakePark = 0 0 0.2 abs
+DrivMan.1.Gear = 0 0 0.0 abs
 DrivMan.1.LongDyn = Manual
 DrivMan.1.LatDyn = Driver 0
 Traffic.IFF.FName =
@@ -105,9 +107,9 @@ Road.2Movie.TerrainFName =
 Road.Definition:
 	FileIdent IPGRoad 4.5
 	Origin    0 0 0 0
-	Default 3.00 3.00 0.50 0.50 1.0 1.0 - 0 0 - 0 0
-	Straight  300 - - - -  0 0 0
-	Straight  200 3 3 0.5 0.5  0 0 0  0.5 0.5  - - -  - - -
+	Default 3.00 3.00 0.50 0.50 1.0 1.0 - - - - - -
+	Straight  300 3 3 0.5 0.5  0 0 0  1 1  - - -  - - -
+	Straight  200 3 3 0.5 0.5  0 0 0  1 1  1 -3 0  0.5 0 3
 Env.StartTime.Year = 2019
 Env.StartTime.Month = 1
 Env.StartTime.Day = 1
@@ -168,13 +170,13 @@ Driver.Traffic.Overtake_Rate = 1
 Driver.Traffic.Overtake_dSpeedMin = 10
 Driver.Long.dtAccBrake = 0.5
 Driver.Long.axMax = 3.0
-Driver.Long.axMin = -4.0
+Driver.Long.axMin = -20.0
 Driver.Long.ayMax = 4.0
 Driver.Long.GGExp:
 	50 1.0 1.0
 Driver.Long.DevMax = 0.0
 Driver.Long.tReact = 0.0
-Driver.Long.TractionControl = 1
+Driver.Long.TractionControl = 0
 Driver.DecShift.UseBrakePark = 0
 Driver.DecShift.tSwitchGear = 1.0
 Driver.DecShift.nEngine.Limits:

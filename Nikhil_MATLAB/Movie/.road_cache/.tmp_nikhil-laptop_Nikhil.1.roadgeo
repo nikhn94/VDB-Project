@@ -8,8 +8,8 @@ def material Road 0.3 0.3 0.3 1  Road 10 10
 
 SubPlane 0.000 500.000 -3.500 3.500 -2.000 1.000
 
-ObjId=32
-ELEMENT Line_32_0_0 {
+ObjId=34
+ELEMENT Line_34_0_0 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -24,8 +24,8 @@ ELEMENT Line_32_0_0 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_1 {
+ObjId=34
+ELEMENT Line_34_0_1 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -40,8 +40,8 @@ ELEMENT Line_32_0_1 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_2 {
+ObjId=34
+ELEMENT Line_34_0_2 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -56,8 +56,8 @@ ELEMENT Line_32_0_2 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_3 {
+ObjId=34
+ELEMENT Line_34_0_3 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -72,8 +72,8 @@ ELEMENT Line_32_0_3 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_4 {
+ObjId=34
+ELEMENT Line_34_0_4 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -88,8 +88,8 @@ ELEMENT Line_32_0_4 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_5 {
+ObjId=34
+ELEMENT Line_34_0_5 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -104,8 +104,8 @@ ELEMENT Line_32_0_5 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_6 {
+ObjId=34
+ELEMENT Line_34_0_6 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -120,8 +120,8 @@ ELEMENT Line_32_0_6 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_7 {
+ObjId=34
+ELEMENT Line_34_0_7 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -136,8 +136,8 @@ ELEMENT Line_32_0_7 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_8 {
+ObjId=34
+ELEMENT Line_34_0_8 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -152,8 +152,8 @@ ELEMENT Line_32_0_8 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_9 {
+ObjId=34
+ELEMENT Line_34_0_9 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -168,8 +168,8 @@ ELEMENT Line_32_0_9 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_10 {
+ObjId=34
+ELEMENT Line_34_0_10 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -184,8 +184,8 @@ ELEMENT Line_32_0_10 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_11 {
+ObjId=34
+ELEMENT Line_34_0_11 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -200,8 +200,8 @@ ELEMENT Line_32_0_11 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_12 {
+ObjId=34
+ELEMENT Line_34_0_12 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -216,8 +216,8 @@ ELEMENT Line_32_0_12 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_13 {
+ObjId=34
+ELEMENT Line_34_0_13 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -232,8 +232,8 @@ ELEMENT Line_32_0_13 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_14 {
+ObjId=34
+ELEMENT Line_34_0_14 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -248,8 +248,8 @@ ELEMENT Line_32_0_14 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_15 {
+ObjId=34
+ELEMENT Line_34_0_15 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -264,8 +264,8 @@ ELEMENT Line_32_0_15 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_16 {
+ObjId=34
+ELEMENT Line_34_0_16 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -280,8 +280,8 @@ ELEMENT Line_32_0_16 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_17 {
+ObjId=34
+ELEMENT Line_34_0_17 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -296,8 +296,8 @@ ELEMENT Line_32_0_17 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_18 {
+ObjId=34
+ELEMENT Line_34_0_18 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -312,8 +312,8 @@ ELEMENT Line_32_0_18 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_19 {
+ObjId=34
+ELEMENT Line_34_0_19 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -328,8 +328,8 @@ ELEMENT Line_32_0_19 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_20 {
+ObjId=34
+ELEMENT Line_34_0_20 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -344,8 +344,8 @@ ELEMENT Line_32_0_20 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_21 {
+ObjId=34
+ELEMENT Line_34_0_21 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -360,8 +360,8 @@ ELEMENT Line_32_0_21 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_22 {
+ObjId=34
+ELEMENT Line_34_0_22 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -376,8 +376,8 @@ ELEMENT Line_32_0_22 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_23 {
+ObjId=34
+ELEMENT Line_34_0_23 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -392,8 +392,8 @@ ELEMENT Line_32_0_23 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_24 {
+ObjId=34
+ELEMENT Line_34_0_24 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -408,8 +408,8 @@ ELEMENT Line_32_0_24 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_25 {
+ObjId=34
+ELEMENT Line_34_0_25 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -424,8 +424,8 @@ ELEMENT Line_32_0_25 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_26 {
+ObjId=34
+ELEMENT Line_34_0_26 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -440,8 +440,8 @@ ELEMENT Line_32_0_26 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_27 {
+ObjId=34
+ELEMENT Line_34_0_27 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -456,8 +456,8 @@ ELEMENT Line_32_0_27 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_28 {
+ObjId=34
+ELEMENT Line_34_0_28 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -472,8 +472,8 @@ ELEMENT Line_32_0_28 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_29 {
+ObjId=34
+ELEMENT Line_34_0_29 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -488,8 +488,8 @@ ELEMENT Line_32_0_29 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_30 {
+ObjId=34
+ELEMENT Line_34_0_30 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -504,8 +504,8 @@ ELEMENT Line_32_0_30 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_31 {
+ObjId=34
+ELEMENT Line_34_0_31 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -520,8 +520,8 @@ ELEMENT Line_32_0_31 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_32 {
+ObjId=34
+ELEMENT Line_34_0_32 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -536,8 +536,8 @@ ELEMENT Line_32_0_32 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_33 {
+ObjId=34
+ELEMENT Line_34_0_33 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -552,8 +552,8 @@ ELEMENT Line_32_0_33 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_34 {
+ObjId=34
+ELEMENT Line_34_0_34 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -568,8 +568,8 @@ ELEMENT Line_32_0_34 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_35 {
+ObjId=34
+ELEMENT Line_34_0_35 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -584,8 +584,8 @@ ELEMENT Line_32_0_35 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_36 {
+ObjId=34
+ELEMENT Line_34_0_36 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -600,8 +600,8 @@ ELEMENT Line_32_0_36 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_37 {
+ObjId=34
+ELEMENT Line_34_0_37 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -616,8 +616,8 @@ ELEMENT Line_32_0_37 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_38 {
+ObjId=34
+ELEMENT Line_34_0_38 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -632,8 +632,8 @@ ELEMENT Line_32_0_38 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_39 {
+ObjId=34
+ELEMENT Line_34_0_39 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -648,8 +648,8 @@ ELEMENT Line_32_0_39 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_40 {
+ObjId=34
+ELEMENT Line_34_0_40 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -664,8 +664,8 @@ ELEMENT Line_32_0_40 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_41 {
+ObjId=34
+ELEMENT Line_34_0_41 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -680,8 +680,8 @@ ELEMENT Line_32_0_41 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_42 {
+ObjId=34
+ELEMENT Line_34_0_42 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -696,8 +696,8 @@ ELEMENT Line_32_0_42 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_43 {
+ObjId=34
+ELEMENT Line_34_0_43 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -712,8 +712,8 @@ ELEMENT Line_32_0_43 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_44 {
+ObjId=34
+ELEMENT Line_34_0_44 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -728,8 +728,8 @@ ELEMENT Line_32_0_44 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_45 {
+ObjId=34
+ELEMENT Line_34_0_45 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -744,8 +744,8 @@ ELEMENT Line_32_0_45 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_46 {
+ObjId=34
+ELEMENT Line_34_0_46 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -760,8 +760,8 @@ ELEMENT Line_32_0_46 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_47 {
+ObjId=34
+ELEMENT Line_34_0_47 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -776,8 +776,8 @@ ELEMENT Line_32_0_47 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_48 {
+ObjId=34
+ELEMENT Line_34_0_48 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -792,8 +792,8 @@ ELEMENT Line_32_0_48 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_49 {
+ObjId=34
+ELEMENT Line_34_0_49 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -808,8 +808,8 @@ ELEMENT Line_32_0_49 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_50 {
+ObjId=34
+ELEMENT Line_34_0_50 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -824,8 +824,8 @@ ELEMENT Line_32_0_50 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_51 {
+ObjId=34
+ELEMENT Line_34_0_51 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -840,8 +840,8 @@ ELEMENT Line_32_0_51 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_52 {
+ObjId=34
+ELEMENT Line_34_0_52 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -856,8 +856,8 @@ ELEMENT Line_32_0_52 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_53 {
+ObjId=34
+ELEMENT Line_34_0_53 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -872,8 +872,8 @@ ELEMENT Line_32_0_53 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_54 {
+ObjId=34
+ELEMENT Line_34_0_54 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -888,8 +888,8 @@ ELEMENT Line_32_0_54 {
   DepthWrite 1
 }
 
-ObjId=32
-ELEMENT Line_32_0_55 {
+ObjId=34
+ELEMENT Line_34_0_55 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -904,8 +904,8 @@ ELEMENT Line_32_0_55 {
   DepthWrite 1
 }
 
-ObjId=33
-ELEMENT Line_33_0_0 {
+ObjId=35
+ELEMENT Line_35_0_0 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -1052,8 +1052,8 @@ ELEMENT Line_33_0_0 {
   DepthWrite 1
 }
 
-ObjId=34
-ELEMENT Line_34_0_0 {
+ObjId=36
+ELEMENT Line_36_0_0 {
   PolygonOffset -2.000000 -2.000000
   DepthWrite 0
   interiorcolor Stripe
@@ -1459,7 +1459,39 @@ def material DarkGround 0.5 0.5 0.5 1 Road 10 10
 def material BumpGround 0.5 0.5 0.5 1 Ground 10 10
 def material DarkRoad 0.5 0.5 0.5 1 Road 10 10
 
-ELEMENT Route_35 {
+ObjId=32
+ELEMENT fric_0 {
+  PolygonOffset -1.000000 -1.000000
+  DepthWrite 0
+  interiorcolor 0.30,0.15,0.15,0.5
+  TRILIST {
+	tn	300.000 -3.000 0 0 0 1
+	tn	500.000 -3.000 0 0 0 1
+	tn	300.000 0.000 0 0 0 1
+	sn	500.000 0.000 0 0 0 1
+	end
+  }
+  PolygonOffset 0 0
+  DepthWrite 1
+}
+
+ObjId=33
+ELEMENT fric_1 {
+  PolygonOffset -1.000000 -1.000000
+  DepthWrite 0
+  interiorcolor 0.47,0.47,0.63,0.5
+  TRILIST {
+	tn	300.000 0.000 0 0 0 1
+	tn	500.000 0.000 0 0 0 1
+	tn	300.000 3.000 0 0 0 1
+	sn	500.000 3.000 0 0 0 1
+	end
+  }
+  PolygonOffset 0 0
+  DepthWrite 1
+}
+
+ELEMENT Route_37 {
   interiorcolor 0.5 0.5 0.5 0.3
   PolygonOffset -2 -2
   DepthWrite 0
@@ -1526,7 +1558,7 @@ ELEMENT Route_35 {
   DepthWrite 1
 }
 
-ELEMENT Route_36 {
+ELEMENT Route_38 {
   interiorcolor 0.5 0.5 0.5 0.3
   PolygonOffset -2 -2
   DepthWrite 0
