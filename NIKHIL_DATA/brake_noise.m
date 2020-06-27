@@ -5,10 +5,7 @@ clc;
 %% import data
 data = cell(1,6);
 
-files = {'WO_Controller_1mu_Straight_2.CSV', ...
-    'WO_Controller_Straight_2.CSV', ...
-    'WO_Controller_mu_split_2.CSV', ...
-    'W_Controller_1mu_Straight_noise_2.CSV', ...
+files = {'W_Controller_1mu_Straight_noise_2.CSV', ...
     'W_Controller_Straight_noise_2.CSV', ...
     'W_Controller_mu_split_noise_2.CSV', ... 
 };
@@ -22,7 +19,7 @@ for i = 1:size(files,2)
     FR = data{i}.data(:,2)*0.32;
     RL = data{i}.data(:,3)*0.32;
     RR = data{i}.data(:,4)*0.32;
-    t  = data{i}.data(:,6);
+    t  = data{i}.data(:,10);
 
     figure(i);
     plot(t, FL);
@@ -38,7 +35,7 @@ for i = 1:size(files,2)
     set(gca, 'YColor', 'k');
 
     set(gca,'LineWidth',2,'FontSize',15, 'YColor', 'k','XMinorTick','on');
-    set(findall(gca, 'Type', 'Line'),'LineWidth',1.5);
+    set(findall(gca, 'Type', 'Line'),'LineWidth',1);
     
     name = split(files{i}, '.');
     name = split(name(1), '_');
