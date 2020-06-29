@@ -47,7 +47,7 @@ for i = 1:size(files,2)
 
     set(gca,'LineWidth',2,'FontSize',15, 'YColor', 'k','XMinorTick','on');
     set(findall(gca, 'Type', 'Line'),'LineWidth',1.5);
-    axis([0 25 -2000 8000]);
+    axis([0 25 -500 5000]);
     
     name = split(files{i}, '.');
     name = split(name(1), '_');

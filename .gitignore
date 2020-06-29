@@ -1,6 +1,7 @@
 quad_car/
 archive/
 Simulation/slprj/
+Results/*.m
 .autosave
 *.asv
 *.mex*
