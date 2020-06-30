@@ -18,3 +18,8 @@ on roads with
 This repository hosts the results of the experiment desribed above. 
 Here is an overview of the experiment results:
 ![](https://i.imgur.com/AAxsZd3.png)
+
+To better evaluate the performance of the brakes, the resepctive Key Performance Indicators are calculated as follows:
+![](https://i.imgur.com/BQu4HJA.png)
+
+Please refer to our [report](VDB_project.pdf) for more details.
