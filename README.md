@@ -6,7 +6,9 @@ This project aims to analyze the effect ABS brings about and how they perform on
 1. without controller,
 2. with LQR controller, 
 3. with PID controller 
+
 on roads with 
+
 1. friction coefficient &mu = 1,
 2. friction coefficient &mu = 0.5,
 3. &mu - split (leftside &mu=0.5; rightside &mu = 1)
